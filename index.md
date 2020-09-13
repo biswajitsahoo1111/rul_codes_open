@@ -4,8 +4,8 @@ A component (or a machine) is said to have failed when it can no longer perform 
 
 There are many techniques developed over the years to predict RUL of a component. All those techniques can be broadly divided into two categories.
 
-* Model based methods
-* Data-driven methods
+* Model Based Methods
+* Data-Driven Methods
 
 In model based methods, we try to formulate a mathematical model of the system under consideration. Then using that model we try to predict RUL of the component. Though model based methods are used in some cases, there are many other applications where formulating a full mathematical model of the system is extremely difficult. In some cases, the underlying physics is so complex that we have to make many simplifying assumptions. Whether the simplifying assumptions are justified or not is determined by collecting real data from the machine. Therefore, it requires extensive domain knowledge and thus is a territory of only a select few who can actually do these things.
 
