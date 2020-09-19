@@ -26,7 +26,6 @@ We will first apply classical machine learning methods (so-called shallow learni
 
 **Note on last column of following table**: The last column specifies the degradation model used in the notebooks. There are two common degradation models that are used for this particular turbofan dataset: Linear degradation model and Piecewise linear degradation model. For more details about both, see [this](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_data_description_and_preprocessing.ipynb). When we use piecewise linear degradation model, we have to assume an early RUL value. This is nothing but the value of RUL that is assumed when the component is relatively new. In literature, different people use different early RUL values. In our examples, when we specify an early RUL value, that means that we apply the same early RUL across all 4 datasets. 
 
-<center>
 
 |Method|FD001|FD002|FD003|FD004|Degradation Model|
 |:-----:|:-----:|:-----:|:------:|:------:|:-----:|
@@ -35,7 +34,6 @@ We will first apply classical machine learning methods (so-called shallow learni
 |Gradient Boosting|[33.24](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD001_xgboost_linear_degradation_model.ipynb)<sup>* </sup>|[29.88](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD002_xgboost_linear_degradation_model.ipynb)|[47.94](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD003_xgboost_linear_degradation_model.ipynb)<sup>* </sup>|[40.34](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD004_xgboost_linear_degradation_model.ipynb)<sup>*</sup>|Linear|
 
 
-</center>
 
 <sup>*</sup>See the notebook to get a complete picture.
 
