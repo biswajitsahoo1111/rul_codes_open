@@ -15,7 +15,7 @@ In contrast, in data-driven methods all information about a machine is gained fr
 
 Like my previous project on [fault diagnosis](https://biswajitsahoo1111.github.io/cbm_codes_open/), aim of this project is to produce reproducible results for RUL prediction. RUL prediction is a broad subject that can be applied to many problems such as RUL prediction of Li-Ion batteries, RUL prediction of machinery bearings, RUL prediction of machine tool, etc. We will start with mechanical applications and then gradually move to other applications over time. As our aim is reproducibility, we will use publicly available datasets. Interested readers can download the data and use our code to get exact results as we have obtained. As we will use well known datasets, readers might observe that, in some cases, our results are in fact worse than some reported results elsewhere. Our goal is not to verify someone else's claim. If someone else claims a better result, onus is on them to demonstrate their result. Here, whatever results I have claimed can be reproduced by readers by just running the jupyter notebooks after downloading relevant data.
 
-This is an ongoing project and modifications and additions of new techniques will be done over time. **Python** and **R** are two popular programming languages that are used in machine learning applications. We will use **Python** to demonstrate our results. At a later stage we might add equivalent **R** code.
+This is an ongoing project and modifications and additions of new techniques will be done over time. **Python** and **R** are two popular programming languages that are used in machine learning applications. We will use **Python** to demonstrate our results. At a later stage we might add equivalent **R** code. To implement deep learning models, we will use **Tensorflow**.
 
 
 ## Results using [NASA's Turbofan Engine Degradation Dataset](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan)
@@ -37,7 +37,18 @@ We will first apply classical machine learning methods (so-called shallow learni
 
 <sup>*</sup>See the notebook to get a complete picture.
 
-(This list will be updated gradually.)
+## Enter Deep Learning
+
+------------------------------
+
+In this section, we will apply deep learning to predict RUL of Turbofan dataset. Due to the nondeterministic nature of operations used in deep learning and dependence of libraries like `Tensorflow` on computer architecture, readers might obtain slightly different results than those in the notebooks. For reproducibility of our results, we also share the saved models of each notebook. All saved models for Turbofan dataset can be found at this [link](https://github.com/biswajitsahoo1111/rul_codes_open/tree/master/saved_models/cmapss). A notebook describing the steps to use the saved models can be found [here](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_using_saved_model_deep_learning.ipynb).
+
+
+|Method|FD001|FD002|FD003|FD004|Degradation Model|
+|:-----:|:-----:|:-----:|:------:|:------:|:-----:|
+|1D CNN|[15.77](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD001_1D_CNN_piecewise_linear_degradation_model.ipynb)|-|-|-|Piecewise Linear (Early RUL = 125)|
+
+(This table will be updated gradually.)
 
 ### Why have I used only Jupyter notebooks?
 
