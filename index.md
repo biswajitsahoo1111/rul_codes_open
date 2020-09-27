@@ -46,7 +46,8 @@ In this section, we will apply deep learning to predict RUL of Turbofan dataset.
 
 |Method|FD001|FD002|FD003|FD004|Degradation Model|
 |:-----:|:-----:|:-----:|:------:|:------:|:-----:|
-|1D CNN|[15.77](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD001_1D_CNN_piecewise_linear_degradation_model.ipynb)|-|-|-|Piecewise Linear (Early RUL = 125)|
+|LSTM|[15.16](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD001_LSTM_piecewise_linear_degradation_model.ipynb)|-|[15.54](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD003_LSTM_piecewise_linear_degradation_model.ipynb)|-|Piecewise Linear (Early RUL = 125)|
+|1D CNN|[15.84](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD001_1D_CNN_piecewise_linear_degradation_model.ipynb)|-|[15.78](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD003_1D_CNN_piecewise_linear_degradation_model.ipynb)|-|Piecewise Linear (Early RUL = 125)|
 
 (This table will be updated gradually.)
 
