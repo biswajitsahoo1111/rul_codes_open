@@ -56,7 +56,7 @@ In this section, we will apply deep learning to predict RUL of Turbofan dataset.
 
 -------------------------------------
 
-1. [Data-Driven Fault Diagnosis](https://biswajitsahoo1111.github.io/cbm_codes_open/)
+1. [Data-Driven Machinery Fault Diagnosis](https://biswajitsahoo1111.github.io/cbm_codes_open/)
 
 2. [Fault diagnosis of machines (A non-technical introduction)](https://biswajitsahoo1111.github.io/post/fault-diagnosis-of-machines/)
 
