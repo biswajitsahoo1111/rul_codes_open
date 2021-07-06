@@ -1,0 +1,2 @@
+model_checkpoint_path: "FD002_early_rul_150_GRU_rmse_27_99"
+all_model_checkpoint_paths: "FD002_early_rul_150_GRU_rmse_27_99"
