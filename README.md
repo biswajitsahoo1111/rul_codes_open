@@ -6,7 +6,6 @@ My [other projects](https://biswajitsahoo1111.github.io/project/) and [blog arti
 
 For attribution, cite this project as
 ```
-BibTeX citation
 @misc{sahoo2018datadrivenrul,
   author = {Sahoo, Biswajit},
   title = {Data-Driven Remaining Useful Life (RUL) Prediction},
