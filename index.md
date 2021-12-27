@@ -47,7 +47,7 @@ In this section, we will apply deep learning to predict RUL of Turbofan dataset.
 
 |Method|FD001|FD002|FD003|FD004|Degradation Model|
 |:-----:|:-----:|:-----:|:------:|:------:|:-----:|
-|LSTM|[15.16](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD001_LSTM_piecewise_linear_degradation_model.ipynb)|-|[15.54](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD003_LSTM_piecewise_linear_degradation_model.ipynb)|-|Piecewise Linear (Early RUL = 125)|
+|LSTM|[15.16](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD001_LSTM_piecewise_linear_degradation_model.ipynb)|[27.57](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD002_LSTM_piecewise_linear_degradation_model.ipynb)|[15.54](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD003_LSTM_piecewise_linear_degradation_model.ipynb)|[28.21](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD004_LSTM_piecewise_linear_degradation_model.ipynb)|Piecewise Linear (Early RUL: 125 (FD001, FD003), 150 (FD002, FD004))|
 |1D CNN|[15.84](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD001_1D_CNN_piecewise_linear_degradation_model.ipynb)|[30.38](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD002_1D_CNN_piecewise_linear_degradation_model.ipynb)|[15.78](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD003_1D_CNN_piecewise_linear_degradation_model.ipynb)|[32.35](https://github.com/biswajitsahoo1111/rul_codes_open/blob/master/notebooks/cmapss_notebooks/CMAPSS_FD004_1D_CNN_piecewise_linear_degradation_model.ipynb)|Piecewise Linear (Early RUL: 125 (FD001, FD003), 150 (FD002, FD004))|
 
 
@@ -85,7 +85,6 @@ These notebooks are for educational purposes only. Our experiments are relativel
 
 For attribution, cite this project as
 ```
-BibTeX citation
 @misc{sahoo2018datadrivenrul,
   author = {Sahoo, Biswajit},
   title = {Data-Driven Remaining Useful Life (RUL) Prediction},
