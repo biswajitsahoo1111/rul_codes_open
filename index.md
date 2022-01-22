@@ -89,7 +89,7 @@ For attribution, cite this project as
 author = {Sahoo, Biswajit},
 doi = {10.5281/zenodo.5890595},
 month = {9},
-title = {{Data-Driven Remaining Useful Life (RUL) Prediction}},
+title = {Data-Driven Remaining Useful Life (RUL) Prediction},
 url = {https://biswajitsahoo1111.github.io/rul_codes_open/},
 year = {2020}
 }
