@@ -6,11 +6,15 @@ My [other projects](https://biswajitsahoo1111.github.io/project/) and [blog arti
 
 For attribution, cite this project as
 ```
-@misc{sahoo2018datadrivenrul,
-  author = {Sahoo, Biswajit},
-  title = {Data-Driven Remaining Useful Life (RUL) Prediction},
-  url = {https://biswajitsahoo1111.github.io/rul_codes_open/},
-  year = {2018}
+@misc{biswajit_sahoo_2020_5890595,
+  author       = {Biswajit Sahoo},
+  title        = {Data-Driven Remaining Useful Life (RUL) Prediction},
+  month        = sep,
+  year         = 2020,
+  publisher    = {Zenodo},
+  version      = {v1.0.0},
+  doi          = {10.5281/zenodo.5890595},
+  url          = {https://doi.org/10.5281/zenodo.5890595}
 }
 ```
 Readers should cite original datasets separately.
