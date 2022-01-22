@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+preferred-citation:
+  type: generic
+  authors:
+  - family-names: "Sahoo"
+    given-names: "Biswajit"
+    orcid: "https://orcid.org/0000-0002-8278-5571"
+  doi: "10.5281/zenodo.5890595"
+  month: 9
+  year: 2020
+  title: "Data-Driven Remaining Useful Life (RUL) Prediction"
+  version: 1.0.0
+  url: "https://biswajitsahoo1111.github.io/rul_codes_open/"
