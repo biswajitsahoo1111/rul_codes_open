@@ -15,4 +15,4 @@ Data preprocessing methods are problem specific and depends on how data are stor
 
 ## My question is not listed in the FAQs. How can I ask it?
 
-Please ask your questions in the comments section below. Otherwise (if you don't want your question to be made public), you can privately email your question to the [author](https://biswajitsahoo1111.github.io/) directly.
+Please ask your questions in the comments section below. Otherwise (if you don't want your questions to be made public), you can privately email your questions to the [author](https://biswajitsahoo1111.github.io/) directly.
