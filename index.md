@@ -18,7 +18,7 @@ Like my previous project on [fault diagnosis](https://biswajitsahoo1111.github.i
 This is an ongoing project and modifications and additions of new techniques will be done over time. **Python** and **R** are two popular programming languages that are used in machine learning applications. We will use **Python** to demonstrate our results. At a later stage we might add equivalent **R** code. To implement deep learning models, we will use **Tensorflow**.
 
 
-## Results using [NASA's Turbofan Engine Degradation Dataset](https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#turbofan)<sup>*</sup>
+## Results using [NASA's Turbofan Engine Degradation Dataset](https://data.nasa.gov/Aerospace/CMAPSS-Jet-Engine-Simulated-Data/ff5v-kuh6)
 
 ---------------------------------------------------------------
 
@@ -36,7 +36,6 @@ We will first apply classical machine learning methods (so-called shallow learni
 
 
 
-<sup>*</sup> On 23 June 2022, it was found that the original link doesn't point to the dataset anymore. I am not sure when the link would be active again. However, as the dataset is widely known, it can be found at other places on the internet. Readers who are willing to experiment with the dataset can obtain it from [here](https://www.kaggle.com/datasets/behrad3d/nasa-cmaps) (if it is not down). I would encourage readers to check the original data link first as it contains a wealth of other datasets as well and use the alternative link as a last resort.
 
 ## Enter Deep Learning
 
@@ -55,7 +54,7 @@ In this section, we will apply deep learning to predict RUL of Turbofan dataset.
 
 ---------------------------------------------
 
-What is attention? We recommend [Chapter 10](https://d2l.ai/chapter_attention-mechanisms/index.html) of [this book](https://d2l.ai/index.html) for more details. We provide notebooks that implement GRU based additive attention for RUL prediction. For reproducibility of our results, we share trained weights. All trained weights can be found [here](https://github.com/biswajitsahoo1111/rul_codes_open/tree/master/notebooks/cmapss_notebooks/attention_based_RUL/saved_weights). We also provide [separate notebooks](https://github.com/biswajitsahoo1111/rul_codes_open/tree/master/notebooks/cmapss_notebooks/attention_based_RUL) describing steps to use trained weights to reproduce exact results as obtained by us.
+What is attention? We recommend [Chapter 10](https://classic.d2l.ai/chapter_attention-mechanisms/index.html) of [this book](https://classic.d2l.ai/index.html) for more details. We provide notebooks that implement GRU based additive attention for RUL prediction. For reproducibility of our results, we share trained weights. All trained weights can be found [here](https://github.com/biswajitsahoo1111/rul_codes_open/tree/master/notebooks/cmapss_notebooks/attention_based_RUL/saved_weights). We also provide [separate notebooks](https://github.com/biswajitsahoo1111/rul_codes_open/tree/master/notebooks/cmapss_notebooks/attention_based_RUL) describing steps to use trained weights to reproduce exact results as obtained by us.
 
 |Method|FD001|FD002|FD003|FD004|Degradation Model|
 |:-----:|:-----:|:-----:|:------:|:------:|:-----:|
