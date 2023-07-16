@@ -74,7 +74,7 @@ What is attention? We recommend [Chapter 10](https://classic.d2l.ai/chapter_atte
 
 3. [Fault diagnosis of machines (A non-technical introduction)](https://biswajitsahoo1111.github.io/post/fault-diagnosis-of-machines/)
 
-4. [Blog articles by yours truly](https://biswajitsahoo1111.github.io/categories/blog/)
+4. [Blog articles by yours truly](https://biswajitsahoo1111.github.io/category/blog/)
 
 --------------------------------------
 
